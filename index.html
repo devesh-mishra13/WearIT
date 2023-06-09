@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>WearIt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">WearIt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Women's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ocational</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contacts
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#">Twitter</a></li>
+                        <li><a class="dropdown-item" href="#">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg></a>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="name">
+    <div class="top-g">
+        <h2 class="text-center">WEAR IT</h2>
+        <p class="text-center">THE PERFECT OUTFIT STORE</p>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item" data-bs-interval="2000">
+                <img src="images/img1.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption">
+                    <h5>Men's Wear</h5>
+                    <p>Each and Every size combos for Mens.</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item" data-bs-interval="2000">
+                <img src="images/img2.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption">
+                    <h5>Women's Wear</h5>
+                    <p>Great Collection Of Clothes for Womens.</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="images/img3.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption">
+                    <h5>Kid's Wear</h5>
+                    <p>Amazing and funny clothes for Your Kids.</p>
+                </div>
+            </div>
+            <div class="carousel-item c-item">
+                <img src="images/img4.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption">
+                    <h5>Seasonal Wear</h5>
+                    <p>Clothes for Every Traditions.</p>
+                </div>
+            </div>
+        </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+</div>
+<div id="men">
+    <table><tr>
+        <td><div class="menwearphotos">menwears</div></td>
+        <td><div class="menwearcontent">menwearcontent</div></td>
+    </tr></table>
+</div>
+<div id="women">
+    <table><tr>
+        <td><div class="womenwearphotos">womenwears</div></td>
+        <td><div class="womenwearcontent">womencontent</div></td>
+    </tr></table>
+</div>
+<div id="children">
+    <table><tr>
+        <td><div class="childwearphotos">childwears</div></td>
+        <td><div class="childwearcontent">childrencontent</div></td>
+    </tr></table>
+</div>
+<div id="form">signup+form</div>
+</body>
+</html>
