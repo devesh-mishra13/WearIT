@@ -26,11 +26,14 @@ filter:brightness(0.6);
 .container {
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
   height:300px;
 }
 
 
 .card {
+width:35%;
+height:30%;
   max-width: 250px;
   max-height: 340px;
   margin: 10px;
@@ -100,10 +103,6 @@ background:#E4A5FF;
 height:100vh;
 }
 #kids{
-background:#ECE5C7;
-height:100vh;
-}
-#Ocational{
 background:#ECE5C7;
 height:100vh;
 }
