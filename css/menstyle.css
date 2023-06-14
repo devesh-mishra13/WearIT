@@ -1,4 +1,15 @@
 .main{
-background:blue;
+background:white;
 height:100vh;
+}
+.flex-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+}
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
 }
