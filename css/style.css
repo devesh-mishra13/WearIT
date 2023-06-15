@@ -27,19 +27,23 @@ filter:brightness(0.6);
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
+  height:200px;
+  width:650px;
 }
 
 
 .card {
-width:35%;
-height:30%;
-  max-width: 250px;
-  max-height: 340px;
   margin: 10px;
    border-radius: 15px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+    height:200px;
+    width:200px;
 }
-
+.card-img{
+height:150px;
+width:100%;
+}
+/*
 .button {
   cursor: pointer;
   position: relative;
@@ -80,7 +84,7 @@ height:30%;
 
 .button:active {
   scale: 1;
-}
+}*/
 
 
 
@@ -94,8 +98,8 @@ display:flex;
 }
 
 #i1{
-width:50vw;
-height:50vh;
+width:100vw;
+height:100vh;
 }
 
 
