@@ -13,9 +13,4 @@ var button = document.getElementById("myButton3");
 button.onclick = function() {
   document.getElementById("kids").scrollIntoView();
 };
-var button = document.getElementById("myButton4");
-
-button.onclick = function() {
-  document.getElementById("Ocational").scrollIntoView();
-};
 
