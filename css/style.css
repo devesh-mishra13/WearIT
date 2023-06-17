@@ -5,12 +5,12 @@ font-family: Garamond, serif;
 
 #name{
 background:white;
-height:100vh;
+height:400vh;
 margin:0px;
 }
 
 .top-g{
-height:8%;
+height:86.4px;
 }
 
 
@@ -22,85 +22,43 @@ height:100%;
 filter:brightness(0.6);
 }
 
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  height:200px;
-  width:650px;
 }
 
 
-.card {
+.card-k {
+width:35%;
+height:100%;
+  max-width: 250px;
+  max-height: 340px;
   margin: 10px;
    border-radius: 15px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
-    height:200px;
-    width:200px;
 }
-.card-img{
-height:150px;
-width:100%;
-}
-/*
-.button {
-  cursor: pointer;
-  position: relative;
-  padding: 10px 24px;
-  font-size: 18px;
-  color: rgb(193, 163, 98);
-  border: 2px solid rgb(193, 163, 98);
-  border-radius: 34px;
-  background-color: transparent;
-  font-weight: 600;
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
-  overflow: hidden;
-}
-
-.button::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  margin: auto;
-  width: 50%;
-  height: 50%;
-  border-radius: inherit;
-  scale: 0;
-  z-index: -1;
-  background-color: rgb(193, 163, 98);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.button:hover::before {
-  scale: 3;
-}
-
-.button:hover {
-  color: #212121;
-  scale: 1.1;
-  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
-}
-
-.button:active {
-  scale: 1;
-}*/
-
-
-
-
 
 #men{
-background:white;
 height:100vh;
-justify-content:center;
-display:flex;
+width:100vw;
 }
 
-#i1{
+
+.men-div{
+max-height:200px;
 width:100vw;
-height:100vh;
+height:20vh;
 }
+
+.men-div-1{
+width:100vw;
+height:30vh;
+margin:10px;
+}
+
+
+
 
 
 #women{
