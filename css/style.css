@@ -44,21 +44,66 @@ height:100vh;
 width:100vw;
 }
 
+/*men carousel starts*/
 
-.men-div{
-max-height:200px;
-width:100vw;
-height:20vh;
+.caro{
+position:relative;
+height:400px;
+width:80%;
+margin: 0 auto;
+padding:100px;
+border:black;
+}
+.caro-slides-img{
+width:100%;
+height:100%;
+}
+.caro-container{
+height:100%;
+position:relative;
+}
+.caro-track{
+padding:0;
+margin:0;
+list-style:none;
+width:100%;
+height:100%;
+}
+.caro-slide{
+position:absolute;
+top:0;
+bottom:0;
+width:100%;
+object-cover:fit;
+display:inline-flex;
+justify-content:center;
+}
+.caro-slide-div{
+width:30%;
+height:100%;
+object-fit:cover;
+}
+.caro-button{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+border:0;
+background:transparent;
+cursor:pointor;
+}
+.caro-button-img{
+width:20px;
+}
+.caro-button-left{
+left:-40px;
+padding-left:136px;
+}
+.caro-button-right{
+right:-40px;
+padding-right:136px;
 }
 
-.men-div-1{
-width:100vw;
-height:30vh;
-margin:10px;
-}
-
-
-
+/*men carousel ends*/
 
 
 #women{
@@ -73,16 +118,4 @@ height:100vh;
 #form{
 background:#ECE5C7;
 height:100vh;
-}
-
-#i4{
-width:100%;
-height:100%;
-}
-
-
-.button{
-justify-content:center;
-width:50%
-box-radius:15px;
 }
