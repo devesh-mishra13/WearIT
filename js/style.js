@@ -1,16 +1,39 @@
-var button = document.getElementById("myButton1");
+const track = document.querySelector('.caro-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.caro-button-right');
+const prevButton = document.querySelector('.caro-button-left');
 
-button.onclick = function() {
-  document.getElementById("men").scrollIntoView();
-};
-var button = document.getElementById("myButton2");
+const slideWidth = slides[0].getBoundingClientRect().width;
 
-button.onclick = function() {
-  document.getElementById("women").scrollIntoView();
-};
-var button = document.getElementById("myButton3");
 
-button.onclick = function() {
-  document.getElementById("kids").scrollIntoView();
-};
+const setSlidePosition = (slide,index)=>{
+ slide.style.left = slideWidth * index + 'px';
+ }
 
+slides.forEach(setSlidePosition);
+
+const moveToSlide = (track,currentSlide,targetSlide) =>{
+track.style.transform = 'translateX(-'+ targetSlide.style.left +')';
+currentSlide.classList.remove('current-slide');
+targetSlide.classList.add('current-slide');
+}
+
+
+
+prevButton.addEventListener('click',e =>{
+const currentSlide = track.querySelector('.current-slide');
+const prevSlide = currentSlide.previousElementSibling;
+
+moveToSlide(track,currentSlide,prevSlide);
+
+})
+
+
+
+nextButton.addEventListener('click',e =>{
+const currentSlide = track.querySelector('.current-slide');
+const nextSlide = currentSlide.nextElementSibling;
+
+moveToSlide(track,currentSlide,nextSlide);
+
+})
