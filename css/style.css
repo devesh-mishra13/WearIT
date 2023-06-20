@@ -5,53 +5,58 @@ font-family: Garamond, serif;
 
 #name{
 background:white;
-height:400vh;
+height:100vh;
+width:100vw;
 margin:0px;
+overflow:hidden;
 }
 
 .top-g{
-height:86.4px;
+height:85.9px;
+width:100vw;
 }
 
 
 .c-item{
-height:300px;
+height:250px;
+width:100vw;
+overflow:hidden;
 }
 .c-img{
 height:100%;
 filter:brightness(0.6);
 }
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:center;
-}
-
-
-.card-k {
-width:35%;
+.m-video-div-lines{
+width:40%;
 height:100%;
-  max-width: 250px;
-  max-height: 340px;
-  margin: 10px;
-   border-radius: 15px;
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+background:white;
+text-align:right;
+text-shadow: 2px 2px 8px #17594A;
+font-size:25px;
 }
-
+.m-video-div{
+height:400px;
+width:100vw;
+}
+.m-video{
+object-fit:cover;
+top:0;
+padding:10px 0px 10px 10px;
+height:100%;
+width:60%;
+}
 #men{
 height:100vh;
 width:100vw;
 }
 
-/*men carousel starts*/
+/*men carousel starts
 
 .caro{
 position:relative;
 height:400px;
-width:80%;
+width:100%;
 margin: 0 auto;
-padding:100px;
 border:black;
 }
 .caro-slides-img{
@@ -106,19 +111,42 @@ right:-40px;
 padding-right:136px;
 }
 
-/*men carousel ends*/
+men carousel ends*/
 
+.men-video-rl{
+height:350px;
+width:100%;
+display:flex;
+justify-content:center;
+}
+.m-video1{
+position:relative;
+height:100%;
+object-fit:inherit;
+}
+m-video1-rl{
+height:85.9px;
+}
+
+.men-cards-div{
+height:20vh;
+width:100%;
+}
+.men-cards{
+background:blue;
+padding:5px;
+}
 
 #women{
 background:#E4A5FF;
 height:100vh;
+width:100vw;
+overflow:hidden;
 }
 #kids{
 background:#ECE5C7;
 height:100vh;
+width:100vw;
+overflow:hidden;
 }
 
-#form{
-background:#ECE5C7;
-height:100vh;
-}
