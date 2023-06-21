@@ -4,7 +4,7 @@ font-family: Garamond, serif;
 
 
 #name{
-background:white;
+background:#ECE5C7;
 height:100vh;
 width:100vw;
 margin:0px;
@@ -46,6 +46,7 @@ height:100%;
 width:60%;
 }
 #men{
+background:#ECE5C7;
 height:100vh;
 width:100vw;
 }
@@ -147,6 +148,7 @@ height:90%;
 }
 
 #women{
+background:#ECE5C7;
 height:100vh;
 width:100vw;
 }
@@ -156,4 +158,20 @@ height:100vh;
 width:100vw;
 overflow:hidden;
 }
-
+.footer{
+width:100%;
+height:300px;
+background:#526D82;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+margin:auto;
+}
+.footer-section{
+flex-basis:30%;
+margin:20px 0px;
+height:180px;
+}
+.copy{
+width:80%;
+}
